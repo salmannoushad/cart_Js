@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.page-link {
+  width: 45px;
+}
+/* .page-link:focus {
+  display: none;
+} */
+.set_quantity {
+  position: relative;
+}
+
+.set_quantity::after {
+  content: "(Note, 1 piece)";
+  width: auto;
+  height: auto;
+  text-align: center;
+  bottom: -20px !important;
+  font-size: 0.71rem;
+}
+
+.fa-heart:hover {
+  color: rebeccapurple;
+}
